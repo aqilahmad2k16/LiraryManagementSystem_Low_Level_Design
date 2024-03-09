@@ -20,9 +20,7 @@ public class Main {
 		
 		LibraryController libraryController = new LibraryController();
 		List<Book> books = new ArrayList<>();
-//		Book b1 = new Book("Advanced Engineering Mathemetics", "Erwin Kreyszig", 0, new Subject("Mathematics", null), null);
 		Book b1 = BookSingleton.getBookInstance();
-//		books.add(BookSingleton.modifiedBook(BookSingleton.getBookInstance(), ));
 		b1.setName("Advanced Engineering Mathematics");
 		b1.setAutherName("Erwin Kreyszig");
 		b1.setRack(null);

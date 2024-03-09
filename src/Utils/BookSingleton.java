@@ -20,14 +20,5 @@ public class BookSingleton {
 		
 		return book;
 	}
-
-	public static Book modifiedBook(Book bookInstance) {
-		bookInstance.setName("Advanced Engineering Mathematics");
-		bookInstance.setAutherName("Erwin Kreyszig");
-		bookInstance.setRack(null);
-		bookInstance.setSubject(new Subject("Mathematics", null));
-		bookInstance.setWeight(0);
-		return null;
-	}
 	
 }
